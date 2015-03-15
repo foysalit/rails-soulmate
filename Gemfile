@@ -7,6 +7,8 @@ gem 'rails', '4.2.0'
 gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'foundation-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -25,6 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "uuidtools"
 gem 'rack-cors', :require => 'rack/cors'
+gem 'thin'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
